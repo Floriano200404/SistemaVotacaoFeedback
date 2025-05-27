@@ -50,6 +50,33 @@ O projeto segue uma **estrutura organizada em camadas** para facilitar manutenç
 - Git instalado
 - MySQL (opcional - futuro)
 
+  ## Modelagem das interfaces
+
+A modelagem das interfaces é feito através da plataforma FIGMA. Para acessar, [clique aqui](https://www.figma.com/proto/bUeKRzIuL4ZGmvmXlLJ2Rt/Sistema-Eleitoral-para-o-Campus-Calama?node-id=0-1&t=XJctViub0FrLasjG-1).
+
+## Configuração do setup
+
+Antes de iniciar a configuração do projeto, verifique se você possui os seguintes passos realizados:
+
+- Chave SSH gerada e salva dentro do seu perfil no Github
+
+```
+ssh-keygen -t rsa
+```
+
+- Usuário Git configurado
+
+```
+git config --global user.name "Your-name"
+git config --global user.email "Your-email"
+```
+
+## Configuração inicial do projeto
+
+- Para clonar o projeto em sua máquina, clique em "Clone" na tela inicial do projeto no Github e selecione a opção "Clone with SSH";
+- Agora, dentro do PhpStorm, clique em "GET FROM VCS" e cole o link copiado do github
+
+
 ### Passo a passo
 
 1. Clone o repositório:
