@@ -121,7 +121,7 @@ Os labels são usados para categorizar issues e pull requests de forma consisten
 | `13 documentation` | Roxo escuro | Issues ou PRs relacionadas à documentação do projeto. |
 | `14 database` | Cinza | Issues ou PRs relacionadas ao banco de dados. |
 | `15 done` | verde-claro | A issue ou PR foi concluída e pronta para revisão. |
-| `14 standby` | Cinza-claro | A issue ou PR está em espera por mais informações ou recursos. |
+| `16 standby` | Cinza-claro | A issue ou PR está em espera por mais informações ou recursos. |
 
 > 💡 Dica: Use até 3 labels por issue ou pull request para manter tudo claro e organizado.
 
