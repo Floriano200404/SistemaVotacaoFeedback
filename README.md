@@ -100,6 +100,77 @@ git push origin feature/tela-login
 Após revisão, abra uma **Pull Request** para \`develop\`.
 
 ---
+## 🏷️ Labels
+
+Os labels são usados para categorizar issues e pull requests de forma consistente, ajudando na organização e acompanhamento das tarefas. Abaixo estão os labels utilizados no projeto e suas funções:
+
+| Label | Cor | Descrição |
+|-------|-----|-----------|
+| `01 not started` | Amarelo | A issue ou PR ainda não foi iniciada. |
+| `02 work in progress` | Verde | A issue ou PR está em andamento. |
+| `03 bug` | Vermelho | Relata um problema ou erro no sistema. |
+| `04 question` | Roxo | Uma dúvida ou pergunta relacionada ao projeto. |
+| `05 dependent` | Laranja | A issue depende da conclusão de outra issue antes de ser finalizada. |
+| `06 priority` | Rosa | Indica a prioridade da issue ou PR. |
+| `07 enhancement` | Verde claro | Proposta de nova funcionalidade ou melhoria. |
+| `08 update request` | Roxo claro | Solicitação de atualização ou correção. |
+| `09 correction` | Marrom | Correção de algo que não está funcionando corretamente. |
+| `10 sql` | Azul | Issues ou PRs relacionados ao banco de dados SQL. |
+| `11 front-end` | Verde escuro | Issues ou PRs relacionadas à interface do usuário (front-end). |
+| `12 back-end` | Verde-azulado | Issues ou PRs relacionadas ao servidor ou lógica de negócios (back-end). |
+| `13 documentation` | Roxo escuro | Issues ou PRs relacionadas à documentação do projeto. |
+| `14 database` | Cinza | Issues ou PRs relacionadas ao banco de dados. |
+| `15 done` | verde-claro | A issue ou PR foi concluída e pronta para revisão. |
+| `14 standby` | Cinza-claro | A issue ou PR está em espera por mais informações ou recursos. |
+
+> 💡 Dica: Use até 3 labels por issue ou pull request para manter tudo claro e organizado.
+
+---
+
+## 📌 Como Criar uma Issue
+
+Issues são ótimas para acompanhar bugs, melhorias, tarefas e perguntas.
+
+### Passo a passo:
+
+1. No GitHub/GitLab, clique em **"Issues"** no repositório.
+2. Clique em **"New issue"**.
+3. Escreva um título claro e descritivo:
+   - Exemplo: `[Front-end] Implementar tela de login`
+4. Na descrição, inclua:
+   - O que precisa ser feito
+   - Por quê é importante
+   - Qualquer link ou referência relevante
+5. Adicione os **labels adequados** (ex.: `02 front-end`, `07 enhancement`)
+6. Clique em **Submit new issue**
+
+---
+
+### 🔍 Exemplo de Issue
+
+#### Título:
+`[Back-end] Conexão com banco de dados MySQL`
+
+#### Descrição:
+Implementar conexão JDBC com o banco de dados MySQL para permitir persistência dos votos e usuários. Incluir tratamento de exceções e uso de padrões de projeto.
+
+#### Labels:
+- `02 back-end`
+- `14 database`
+
+---
+
+## 🔄 Como Criar um Pull Request (PR)
+
+Pull Requests são usados para revisar e integrar alterações ao projeto.
+
+### Passo a passo:
+
+1. **Crie uma branch de feature:**
+   ```bash
+   git checkout develop
+   git pull origin develop
+   git checkout -b feature/nova-funcionalidade
 
 ## 👥 Integrantes do Projeto
 
