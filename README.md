@@ -1,6 +1,6 @@
 # Sistema Integrado de Votação e Feedback Acadêmico – Campus Calama
 
-Projeto desktop desenvolvido em **Java Swing**, com arquitetura em camadas, voltado para criar e gerenciar votações e feedbacks acadêmicos no Campus Calama.
+Projeto desktop desenvolvido em **Java Swing**, com arquitetura em camadas, voltado para criar e gerenciar votações e feedbacks acadêmicos no IFRO Campus Calama.
 
 > Este repositório foi criado como parte do projeto final da disciplina de Engenharia de Software, visando substituir métodos manuais por uma solução automatizada, **segura, transparente e inclusiva**.
 
