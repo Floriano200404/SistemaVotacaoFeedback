@@ -110,6 +110,21 @@ Para garantir controle de versão seguro e eficiente, adotamos o seguinte fluxo:
 | \`feature/nome-da-funcionalidade\` | Novas funcionalidades |
 | \`bugfix/descricao\` | Correções de bugs |
 
+# Sempre comece pela develop
+git checkout develop
+git pull origin develop
+
+# Crie uma nova feature branch
+git checkout -b feature/tela-login
+# Trabalhe nas telas e classes
+
+# Adicione e faça commit
+git add .
+git commit -m "feat: implementa tela de login com validação"
+
+# Envie a branch para o repositório
+git push origin feature/tela-login
+
 ### Exemplo de uso:
 
 \`\`\`bash
