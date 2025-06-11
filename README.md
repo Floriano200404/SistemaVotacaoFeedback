@@ -46,7 +46,7 @@ O projeto segue uma **estrutura organizada em camadas** para facilitar manutenç
 ### Pré-requisitos
 
 - JDK 17 ou superior instalado
-- IDE Java (como IntelliJ IDEA)
+- IDE Java (como Netbeans)
 - Git instalado
 - MySQL (opcional - futuro)
 
